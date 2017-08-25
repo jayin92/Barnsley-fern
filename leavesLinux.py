@@ -46,7 +46,7 @@ random.seed()
 turtle.speed(0)
 turtle.delay(0)
 turtle.hideturtle()
-tracepoint = (0,0)
+tracepoint = (0, -100)
 turtle.resizemode("auto")
 i = 1
 drawdot(tracepoint)
