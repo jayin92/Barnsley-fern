@@ -28,7 +28,7 @@ def f4(point): # 7%
 
 def drawdot(point):
 	turtle.penup()
-	turtle.goto((point[0] * 75) - 250, (point[1] * 75))
+	turtle.goto((point[0] * 75), (point[1] * 75) - 500)
 	turtle.pendown()
 	turtle.dot(2, 'green')
 
